@@ -8,7 +8,6 @@ import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Footer from '../components/footer'; // Ensure correct casing
-// import FacebookIcon from '@mui/icons-material/Facebook';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import IconButton from '@mui/material/IconButton';
