@@ -6,6 +6,7 @@ import Birthday from './pages/bday';
 import Home from './pages/Home'; 
 import Story from './components/Story';
 import Profile from './pages/profile';
+import EditProfile from './components/editprofile';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<SignIn />} />
         <Route path="/story" element={<Story/>}/>
         <Route path="/profile" element={<Profile/>} />
+        <Route path="/editprofile" element={<EditProfile/>} />
       </Routes>
     </Router>
   );

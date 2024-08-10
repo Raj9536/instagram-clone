@@ -33,7 +33,7 @@ const Sidebar = () => {
   const [isNotificationOpen, setIsNotificationOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
-  const drawerWidth = 240;
+  const drawerWidth = 250;
 
   return (
     <>
@@ -56,7 +56,7 @@ const Sidebar = () => {
             // width: 250,
             // height: "100%",
             // backgroundColor: "white",
-            // position: "relative",
+            
             zIndex: 1000,
           }}
         >
@@ -159,7 +159,6 @@ const Sidebar = () => {
           setIsSearchOpen={setIsSearchOpen}
         />
       )}
-
 
 
       <div>

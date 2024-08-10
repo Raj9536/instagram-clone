@@ -49,7 +49,7 @@ export default function TypographyMenu() {
             height: "100%",
             backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent overlay
             backdropFilter: "blur(5px)", // Blur effect
-            zIndex: 99999998, // One less than the menu's z-index
+            zIndex: 1, // One less than the menu's z-index
           }}
         />
       )}
@@ -60,7 +60,7 @@ export default function TypographyMenu() {
           sx={{
             width: 250,
             borderRadius: "15px",
-            zIndex: 99999999,
+            zIndex: 2,
             position: "fixed",
             right: "10rem",
             top: "8rem",
@@ -109,7 +109,7 @@ export default function TypographyMenu() {
             borderRadius: "10px",
             boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
             backgroundColor: "#fff",
-            zIndex: 99999999,
+            zIndex: 2,
           }}
         >
           <Typography variant="h6" sx={{ marginBottom: "16px" }}>
