@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
 import axios from 'axios';
-import { Box, Typography, TextField, Button, Divider, Link, styled } from '@mui/material';
-// import FacebookIcon from '@mui/icons-material/Facebook';
 import Footer from '../components/footer';
 import Bg from '../iphone_with_profile.png';
 import { useNavigate } from 'react-router-dom';
